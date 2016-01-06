@@ -1,0 +1,14 @@
+Yes, for the project, we could collaborate online. And you could do as much or as little on the project as you like. 
+
+The idea for the project is to do data-to-text in a particular area of sports: professional cycling. Other NLP researchers have done this type of work with American football and baseball. But it's easier to find data for those sports because you can get detailed statistics from the games and find written descriptions of the games as well, and then look for alignments in the text. In cycling, it is difficult to get detailed stats about a race. It is also difficult to get written descriptions of the entire race. For each of these problems, we can use social media:
+
+- To get stats from a race, we can use the Strava social media site (https://www.strava.com/). In the past couple of years, many professional cyclists have started uploading their data to Strava after each race, or stage of a race. For example, here are some professional cyclists on Strava: https://www.strava.com/pros
+
+- To get written descriptions of a cycling race, we can get highlights of the race from cycling magazines and blogs. However, there is one major issue: for most races, the first couple of hours are not televised. This means that there is very limited information or commentary about that part of the race. However, professional cycling teams always have a team car travelling behind the cyclists, and they typically post tweets about what is happening in the race. 
+
+So, putting these together, our goals would be:
+* Choose a particular race, e.g. the 2015 Tour de France.
+* Find tweets from the cycling teams during each stage of the race.
+* Find Strava data from the cyclists during each stage of the race.
+* Eventually, work on aligning the text and the data. 
+So the first step is just to get the Twitter and Strava data. This would mean using the Twitter and Strava API's and getting all the data that we can for a particular race such as the 2015 Tour de France.
