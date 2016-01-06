@@ -45,6 +45,6 @@ class GetTweets():
         
 def main():
     f = GetTweets()
-    f.getting_query_result("2015 Tour de France")
+    f.getting_query_result("#TDF2015")
 
 main()
